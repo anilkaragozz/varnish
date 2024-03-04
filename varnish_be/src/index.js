@@ -76,6 +76,12 @@ app.delete("/employees", async (req, res) => {
   }
 });
 
+app.purge("/employees", (req, res) => {
+  console.log("purged");
+  console.log(res);
+  return res.send("purged");
+});
+
 app.listen(port, async () => {
   console.log(`⚡️[server]: Server is running at http://localhost:${port}`);
   await client.connect();
