@@ -4,8 +4,8 @@
 
 
 # dependencies
-/varnish_be/node_modules
-/varnish_be_v2/node_modules
+/demo_v1/node_modules
+/demo_v2/node_modules
 /dist
 
 # testing
