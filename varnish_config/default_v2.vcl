@@ -12,10 +12,6 @@ backend demo2 {
     .port = "3002";
 }
 
-acl purge{
-    "localhost";
-    "127.0.0.1";
-}
 sub vcl_init {
     new vdir = directors.round_robin();
     vdir.add_backend(demo1);

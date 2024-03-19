@@ -4,8 +4,8 @@
 
 
 # dependencies
-/demo_v1/node_modules
-/demo_v2/node_modules
+/demo_be/node_modules
+/demo_be_v2/node_modules
 /dist
 
 # testing
